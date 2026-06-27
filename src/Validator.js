@@ -4,18 +4,10 @@ export class Validator {
     const maxThreeDigits = /\d{4,}/;
     const invalidStartEnd = /^[0-9_-]|[0-9_-]$/;
 
-    if (!validCharsAndDigits.test(username)) {
-      return false;
-    }
-
-    if (maxThreeDigits.test(username)) {
-      return false;
-    }
-
-    if (invalidStartEnd.test(username)) {
-      return false;
-    }
-
-    return true;
+    return (
+      validCharsAndDigits.test(username) &&
+      !maxThreeDigits.test(username) &&
+      !invalidStartEnd.test(username)
+    );
   }
 }

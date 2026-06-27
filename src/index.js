@@ -1,4 +1,4 @@
-import {Validator} from './Validator.js'
+import { Validator } from './Validator.js'
 
 const validator = new Validator();
 
