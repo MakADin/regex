@@ -24,7 +24,7 @@
     "@babel/core": "^8.0.1",
     "@babel/eslint-parser": "^8.0.1",
     "@babel/preset-env": "^8.0.2",
-    "@eslint/js": "^10.0.1",
+    "@eslint/js": "^9.39.4",
     "babel-jest": "^30.4.1",
     "eslint": "^9.39.4",
     "eslint-plugin-react": "^7.37.5",
